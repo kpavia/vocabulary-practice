@@ -106,7 +106,8 @@ def menu():
               "7 - Holiday words quiz\n"
               "8 - Car words\n"
               "9 - Months and seasons\n"
-              "10 - Quit program\n")
+              "10 - Body Parts\n"
+              "11 - Quit program\n")
         selection = input("Enter your selection: ")
         if selection == "1":
             print("Starting room items quiz")
@@ -145,6 +146,9 @@ def menu():
             new_dict = make_random(months_seasons)
             quiz(new_dict)
         elif selection == "10":
+            new_dict = make_random(body_parts)
+            quiz(new_dict)
+        elif selection == "11":
             practice = False
             print("Thank you for practicing.")
         else:
