@@ -48,6 +48,13 @@ months_seasons = {"gennaio": "January", "febbraio": "February", "marzo": "March"
                   "October", "novembre": "November", "dicembre": "December", "l'inverno": "winter", "l'estate":
                   "summer", "primavera": "spring", "lo autunno": "fall"}
 
+body_parts = {"head": "la testa", "body": "il corpo", "face": "la faccia", "eyes": "gli occhi", "mouth": "la bocca",
+              "lips": "le labbra", "cheeks": "le guance", "nose": "il naso", "chin": "il mento",
+              "eyebrows": "le sopracciglia", "neck": "il collo", "chest": "il petto", "stomach": "lo stomaco",
+              "arms": "le braccia", "legs": "le gambe", "hands": "le mani", "fingers": "le dita", "finger": "il dito",
+              "hand": "la mano", "knees": "le ginocchia", "knee": "il ginocchio", "feet": "i piedi", "foot": "il piede",
+              "toes": "le dita dei piedi", "toe": "il dito dei piedi", "thumb": "il pollice", "thumbs": "i pollici"}
+
 
 def make_random(thing):
     randomized = {}
